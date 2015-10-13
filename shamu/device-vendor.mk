@@ -23,6 +23,7 @@ PRODUCT_PACKAGES += \
     HiddenMenu \
     ims \
     TimeService \
+    Tycho \
     VZWAPNLib
 
 # Prebuilt jars
