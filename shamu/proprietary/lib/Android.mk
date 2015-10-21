@@ -34,7 +34,7 @@ LOCAL_MODULE := libimsmedia_jni.so
 LOCAL_MODULE_CLASS := FAKE
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_SYSTEM)/base_rules.mk
-$(LOCAL_BUILT_MODULE): TARGET := /lib/libimscamera_jni.so
+$(LOCAL_BUILT_MODULE): TARGET := /lib/libimsmedia_jni.so
 $(LOCAL_BUILT_MODULE): SYMLINK := $(TARGET_OUT)/app/ims/arm/lib/$(LOCAL_MODULE)
 $(LOCAL_BUILT_MODULE):
 	$(hide) echo "Symlink: $(SYMLINK) -> $(TARGET)"
